@@ -1,4 +1,4 @@
-# Emoji Text Predictor using S-BERT
+# Emoji Text Predictor
 
 Our project is a smart and interactive web app that predicts emojis for any sentence you type. We used Sentence-BERT (SBERT) to understand the meaning of the input text and match it with the most relevant emojis. Instead of using heavy models, our system gives fast results using semantic similarity with a custom emoji keyword list.
 
