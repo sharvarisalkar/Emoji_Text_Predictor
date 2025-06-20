@@ -10,7 +10,7 @@ It is implemented as a Flask web application, allowing users to interact with th
 1. User Input: The user enters a sentence or phrase through the web interface.
 2. Text Preprocessing: The input is cleaned (lowercasing, stopword removal, punctuation removal, lemmatization).
 3. Sentence Embedding with SBERT: The cleaned input is converted into a dense semantic vector using SBERT.
-4. Loading Pre-Embedded Emoji Dataset: The system loads a keyword-emoji dataset where each keyword is already embedded using SBERT.
+4. Loading Pre-Embedded Emoji Dataset: The system loads a keyword-emoji dataset (.py) where each keyword is already embedded using SBERT.
 5. Cosine Similarity Matching: The user’s input vector is compared with the emoji dataset to find the closest matches.
 6. Emoji Retrieval and Output: The most relevant emojis are selected and returned to the user.
 7. Live Adaptability: The emoji-keyword list can be updated dynamically via a Python file without retraining the model.
